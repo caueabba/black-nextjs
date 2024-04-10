@@ -11,10 +11,6 @@ type CartContextType = {
 
 const CartContext = createContext<CartContextType>({} as CartContextType)
 
-// src/hooks/useCart.tsx
-
-// ...
-
 export const CartContextProvider = (props: {
     children: ReactNode
   }) => {
